@@ -75,6 +75,7 @@ fun buttonList (
         }
     ) {Text("Oh god please no")}}
 
+
 }
 
 
@@ -87,7 +88,7 @@ fun decisiondisplay(decision: Int){
     ) {
         Text(
             text = "Yes!",
-            modifier = Modifier.padding(top = 24.dp) // optional breathing room
+            modifier = Modifier.padding(top = 24.dp)
         )
     }
 } else
