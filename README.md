@@ -10,9 +10,12 @@ Decision making app
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+
 **Agent: Claude**
+
 **Prompt:**
 * in Kotlin, how can I have three buttons right next to each other
+  
 **Answer:**
   * In Kotlin for Android, how you do this depends on whether you're using Jetpack Compose or the classic XML view system.
 
@@ -72,9 +75,11 @@ Same idea: orientation="horizontal" plus layout_weight="1" on each button splits
 Which one are you working with — Compose or XML?
 
 **Prompt**
+
 * how to display something at center top of the screen kotlin android studio
 
 **Answer**
+
 * In Jetpack Compose, use a Box with Modifier.fillMaxSize() and align content to Alignment.TopCenter:
 
 kotlin
@@ -120,9 +125,11 @@ xml
 Is this going inside an existing layout (like on top of your ButtonList row), or a standalone screen?
 
 **Prompt**
+
 * how to show something at the bottom of the screen
 
 **Answer**
+
 * Same idea, just flipped to Alignment.BottomCenter (or BottomStart/BottomEnd if you don't want it centered):
 
 kotlin
